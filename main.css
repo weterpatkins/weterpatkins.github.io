@@ -1,0 +1,115 @@
+h1 {
+    color: black;
+    font-family: arial; 
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+h2 {
+    color: black;
+    font-family: arial; 
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {color: black;
+    font-family: arial; 
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+a:link {
+    color: black; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+::selection {
+    color: yellow; 
+    background: blue;
+}
+
+main {width: 100%;}
+
+@media (min-width: 1000px){
+    .site-content { column-count: 2;
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        flex-basis: 70%;}
+
+    .nav {column-count: 1;
+        flex-basis: 20%;}
+    
+    .home {
+        column-count: 1;
+    }
+    
+    .badandboujee {
+        column-count: 1;
+        margin-left: 90px
+    }
+    
+    .falling {
+        column-count: 1;
+        margin-left: 70px
+    }
+    
+    .pregree {
+        column-count: 1;
+        margin-left: 150px;
+    }
+    
+    .pillars {
+        column-count: 1;
+        margin-left: 0px;
+    }
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+}
+
+.badandboujee img {
+    width: 100%;
+    height: auto;
+}
+
+.falling img {
+    width: 90%;
+    height: auto;
+}
+
+.pregree img {
+    width: 90%;
+    height: auto;
+}
+
+.pillars img {
+    width: 100%;
+    height: auto;
+}
+
+p1 {
+    font-size: 16px;
+    font-family: arial;
+}
