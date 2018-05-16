@@ -70,7 +70,7 @@ main {width: 100%;}
     
     .falling {
         column-count: 1;
-        margin-left: 70px
+        margin-left: 120px
     }
     
     .pregree {
@@ -80,7 +80,7 @@ main {width: 100%;}
     
     .pillars {
         column-count: 1;
-        margin-left: 0px;
+        margin-left: 150px;
     }
 }
 
@@ -105,7 +105,7 @@ main {width: 100%;}
 }
 
 .pillars img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
