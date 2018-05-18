@@ -65,12 +65,12 @@ main {width: 100%;}
     
     .badandboujee {
         column-count: 1;
-        margin-left: 90px
+        margin-left: 150px
     }
     
     .falling {
         column-count: 1;
-        margin-left: 120px
+        margin-left: 150px
     }
     
     .pregree {
@@ -90,12 +90,12 @@ main {width: 100%;}
 }
 
 .badandboujee img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
 .falling img {
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
