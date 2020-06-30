@@ -82,6 +82,12 @@ main {width: 100%;}
         column-count: 1;
         margin-left: 150px;
     }
+
+    .sketches {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 1rem;
+    }
 }
 
 .home img {
@@ -113,3 +119,4 @@ p1 {
     font-size: 16px;
     font-family: arial;
 }
+
