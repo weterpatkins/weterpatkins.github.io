@@ -82,12 +82,6 @@ main {width: 100%;}
         column-count: 1;
         margin-left: 150px;
     }
-
-    .sketches {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        grid-gap: 1rem;
-    }
 }
 
 .home img {
@@ -113,6 +107,13 @@ main {width: 100%;}
 .pillars img {
     width: 90%;
     height: auto;
+}
+
+.sketches {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
 
 p1 {
