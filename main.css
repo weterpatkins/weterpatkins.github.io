@@ -82,6 +82,9 @@ main {width: 100%;}
         column-count: 1;
         margin-left: 150px;
     }
+    .sketches {
+        column-count: 1;
+    }
 }
 
 .home img {
@@ -109,11 +112,9 @@ main {width: 100%;}
     height: auto;
 }
 
-.sketches {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+.sketches img {
+    width: 70%;
+    height: auto;
 }
 
 p1 {
