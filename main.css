@@ -84,7 +84,7 @@ main {width: 100%;}
     }
 
     .sketchbook {
-        column-count: 2;
+        column-count: 3;
         column-gap: 4px;
     }
 
